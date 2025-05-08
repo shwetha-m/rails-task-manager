@@ -5,4 +5,5 @@
 <% end %>
 </ul>
 
-<p><%= link_to '+ Add a new task', tasks_new_path %></p>
+<%# use tasks_new_path when not using resources :tasks  %>
+<p><%= link_to '+ Add a new task', new_task_path %></p>
